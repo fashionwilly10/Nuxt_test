@@ -1,0 +1,52 @@
+
+body 
+    margin: 0
+    padding: 0
+  
+    .bar
+        position: fixed
+        top: 0
+        left: 0
+        right: 0
+        /* 決定了搜尋框置頂 */
+        height: 44px
+        padding: 0 10px
+        background-color: #fff
+        opacity: 0.8
+        /* 搜尋框半透明效果 */
+        z-index: 10
+        form 
+            display: block
+            padding: 0
+            margin: 0
+        
+    .bar_block 
+        position: relative
+        height: 30px
+        padding: 7px 0   
+        input
+            position: absolute
+            top: 7px
+            height: 30px
+            line-height: 21px
+            width: 100%
+            padding: 10px 15px 10px 30px
+            border: 0
+            border-radius: 6px
+            outline: 0
+            background-color: rgba(0, 0, 0, 0.1)
+            font-size: 16px
+            z-index: 100
+    
+    .tool
+        position: fixed
+        bottom: 0
+        width: 100%
+        background-color: #fff
+        ul
+            display: flex
+            justify-content: space-around
+            list-style: none
+            a
+                display: block
+    
